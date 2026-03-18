@@ -1,0 +1,175 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VmaxCarouselHelper
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import Vmax
+@_exported import VmaxCarouselHelper
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum VmaxCarouselSliderIndicator {
+  case dotted
+  case expanded
+  public static func == (a: VmaxCarouselHelper.VmaxCarouselSliderIndicator, b: VmaxCarouselHelper.VmaxCarouselSliderIndicator) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension VmaxCarouselHelper.VmaxAdsCarousel {
+  public protocol InitializationSuccessDelegate : AnyObject {
+    func onSuccess(vmaxAdSpaces: [Vmax.VmaxAdSpace])
+  }
+}
+@_hasMissingDesignatedInitializers public class VmaxAdsCarouselConfig {
+  @objc deinit
+}
+extension VmaxCarouselHelper.VmaxAdsCarouselConfig {
+  public class Builder {
+    public init()
+    public func setCarouselId(carouselId: Swift.String) -> VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder
+    public func setCardSize(size: CoreFoundation.CGSize) -> VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder
+    public func setCardCornerRadius(cornerRadius: CoreFoundation.CGFloat) -> VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder
+    public func setCardBackgroundColor(colorHexCode: Swift.String) -> VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder
+    public func setCardBackgroundColorWhenFocused(colorHexCode: Swift.String) -> VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder
+    public func setCardShadow(cardShadow: VmaxCarouselHelper.VmaxCarouselCardShadow) -> VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder
+    public func setCardClickable(isCardClickable: Swift.Bool) -> VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder
+    public func setCardSpacing(cardSpacing: CoreFoundation.CGFloat) -> VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder
+    public func setViewportMode(viewportMode: VmaxCarouselHelper.VmaxCarouselCardViewportMode) -> VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder
+    public func enableIndicator(indicatorContainer: UIKit.UIView, vmaxCarouselIndicatorResourceConfig: VmaxCarouselHelper.VmaxCarouselIndicatorResourceConfig?) -> VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder
+    public func build() -> VmaxCarouselHelper.VmaxAdsCarouselConfig
+    @objc deinit
+  }
+}
+public class VmaxCarouselIndicatorResourceConfig {
+  public var indicatorUnfocusedImage: UIKit.UIImage?
+  public var indicatorFocusedImage: UIKit.UIImage?
+  public var indicatorSpacing: CoreFoundation.CGFloat
+  public init(indicatorUnfocusedImage: UIKit.UIImage? = nil, indicatorFocusedImage: UIKit.UIImage? = nil, indicatorSpacing: CoreFoundation.CGFloat = 0)
+  public static func defaultSetup(carouselIndicator: VmaxCarouselHelper.VmaxCarouselSliderIndicator) -> VmaxCarouselHelper.VmaxCarouselIndicatorResourceConfig
+  @objc deinit
+}
+public class VmaxCarouselCardShadow {
+  final public let shadowColor: UIKit.UIColor
+  final public let shadowOffset: CoreFoundation.CGSize
+  final public let shadowOpacity: Swift.Float
+  final public let shadowRadius: CoreFoundation.CGFloat
+  public init(shadowColor: UIKit.UIColor, shadowOffset: CoreFoundation.CGSize, shadowOpacity: Swift.Float, shadowRadius: CoreFoundation.CGFloat)
+  public static func defaultSetup() -> VmaxCarouselHelper.VmaxCarouselCardShadow
+  @objc deinit
+}
+public protocol VmaxCarouselEventDelegate : AnyObject {
+  func onReady()
+  func onError(vmaxError: Vmax.VmaxError)
+  func onRendered()
+  func onAdChanged(index: Swift.Int)
+  func onPaused()
+  func onResumed()
+  func onClosed()
+}
+final public class VmaxCarouselError : Vmax.VmaxError {
+  public enum Codes : Swift.Int {
+    case carouselCompatibleVmaxAdNotFound
+    case minimumCardsNotMet
+    case configError
+    case carouselRenditionError
+    case tagIdsNotPassed
+    case carouselIdNotFound
+    case carouselObjectNotFound
+    case carouselPrepareError
+    case delegateNotInMemory
+    case containerIsMissingParentViewController
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public init(code: VmaxCarouselHelper.VmaxCarouselError.Codes)
+  public init(code: VmaxCarouselHelper.VmaxCarouselError.Codes, errorDescription: Swift.String)
+  public init(code: VmaxCarouselHelper.VmaxCarouselError.Codes, errorDescription: Swift.String, recoveryMessage: Swift.String)
+  @objc deinit
+}
+public enum VmaxCarouselCardAlignment {
+  case center
+  case left
+  case none
+  public static func == (a: VmaxCarouselHelper.VmaxCarouselCardAlignment, b: VmaxCarouselHelper.VmaxCarouselCardAlignment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc public class VmaxAdsCarousel : ObjectiveC.NSObject {
+  public var carouselAdsConfig: VmaxCarouselHelper.VmaxAdsCarouselConfig {
+    get
+  }
+  public var delegate: (any VmaxCarouselHelper.VmaxAdsCarousel.InitializationSuccessDelegate)? {
+    get
+  }
+  public init(carouselConfig: VmaxCarouselHelper.VmaxAdsCarouselConfig)
+  public func initialize(initializationSuccessDelegate: any VmaxCarouselHelper.VmaxAdsCarousel.InitializationSuccessDelegate)
+  public func addCarouselEventDelegate(carouselEventDelegate: any VmaxCarouselHelper.VmaxCarouselEventDelegate)
+  public func removeCarouselEventDelegate(carouselEventDelegate: any VmaxCarouselHelper.VmaxCarouselEventDelegate)
+  public func prepare()
+  public func render(carouselContainer: UIKit.UIView)
+  public func pause()
+  public func resume()
+  public func destroy()
+  @objc deinit
+}
+extension VmaxCarouselHelper.VmaxAdsCarousel : Vmax.VmaxAdEventDelegate {
+  public func onAdReady(vmaxAdSpace: Vmax.VmaxAdSpace)
+  public func onAdError(vmaxAdSpace: Vmax.VmaxAdSpace, vmaxError: Vmax.VmaxError)
+  public func onAdRender(vmaxAdSpace: Vmax.VmaxAdSpace)
+  public func onAdRefresh(vmaxAdSpace: Vmax.VmaxAdSpace)
+  public func onAdClick(vmaxAdSpace: Vmax.VmaxAdSpace)
+  public func onAdClose(vmaxAdSpace: Vmax.VmaxAdSpace)
+}
+extension VmaxCarouselHelper.VmaxAdsCarousel : Vmax.VmaxMediaEvents {
+  public func onComplete<T>(info: T?)
+}
+public enum VmaxCarouselCardViewportMode {
+  case singleCard
+  case multiCard
+  public static func == (a: VmaxCarouselHelper.VmaxCarouselCardViewportMode, b: VmaxCarouselHelper.VmaxCarouselCardViewportMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension VmaxCarouselHelper.VmaxAdsCarousel {
+  public enum CarouselState {
+    case initialized
+    case preparing
+    case preparationFailed
+    case prepared
+    case rendering
+    case renditionFailed
+    case rendered
+    case paused
+    case resumed
+    case destroyed
+    public static func == (a: VmaxCarouselHelper.VmaxAdsCarousel.CarouselState, b: VmaxCarouselHelper.VmaxAdsCarousel.CarouselState) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension VmaxCarouselHelper.VmaxCarouselSliderIndicator : Swift.Equatable {}
+extension VmaxCarouselHelper.VmaxCarouselSliderIndicator : Swift.Hashable {}
+extension VmaxCarouselHelper.VmaxCarouselError.Codes : Swift.Equatable {}
+extension VmaxCarouselHelper.VmaxCarouselError.Codes : Swift.Hashable {}
+extension VmaxCarouselHelper.VmaxCarouselError.Codes : Swift.RawRepresentable {}
+extension VmaxCarouselHelper.VmaxCarouselCardAlignment : Swift.Equatable {}
+extension VmaxCarouselHelper.VmaxCarouselCardAlignment : Swift.Hashable {}
+extension VmaxCarouselHelper.VmaxCarouselCardViewportMode : Swift.Equatable {}
+extension VmaxCarouselHelper.VmaxCarouselCardViewportMode : Swift.Hashable {}
+extension VmaxCarouselHelper.VmaxAdsCarousel.CarouselState : Swift.Equatable {}
+extension VmaxCarouselHelper.VmaxAdsCarousel.CarouselState : Swift.Hashable {}

@@ -1,0 +1,11 @@
+framework module VmaxCarouselHelper {
+  umbrella header "VmaxCarouselHelper.h"
+  export *
+
+  module * { export * }
+}
+
+module VmaxCarouselHelper.Swift {
+  header "VmaxCarouselHelper-Swift.h"
+  requires objc
+}

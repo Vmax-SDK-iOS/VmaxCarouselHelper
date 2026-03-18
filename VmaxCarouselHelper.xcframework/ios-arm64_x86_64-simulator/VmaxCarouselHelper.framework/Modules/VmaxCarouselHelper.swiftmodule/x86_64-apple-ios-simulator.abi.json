@@ -1,0 +1,4619 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "VmaxCarouselHelper",
+    "printedName": "VmaxCarouselHelper",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxCarouselSliderIndicator",
+        "printedName": "VmaxCarouselSliderIndicator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dotted",
+            "printedName": "dotted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VmaxCarouselHelper.VmaxCarouselSliderIndicator.Type) -> VmaxCarouselHelper.VmaxCarouselSliderIndicator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxCarouselSliderIndicator",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselSliderIndicator",
+                    "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselSliderIndicator.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VmaxCarouselSliderIndicator",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselSliderIndicator",
+                        "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO6dottedyA2CmF",
+            "mangledName": "$s18VmaxCarouselHelper0aB15SliderIndicatorO6dottedyA2CmF",
+            "moduleName": "VmaxCarouselHelper"
+          },
+          {
+            "kind": "Var",
+            "name": "expanded",
+            "printedName": "expanded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VmaxCarouselHelper.VmaxCarouselSliderIndicator.Type) -> VmaxCarouselHelper.VmaxCarouselSliderIndicator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxCarouselSliderIndicator",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselSliderIndicator",
+                    "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselSliderIndicator.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VmaxCarouselSliderIndicator",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselSliderIndicator",
+                        "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO8expandedyA2CmF",
+            "mangledName": "$s18VmaxCarouselHelper0aB15SliderIndicatorO8expandedyA2CmF",
+            "moduleName": "VmaxCarouselHelper"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselSliderIndicator",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselSliderIndicator",
+                "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselSliderIndicator",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselSliderIndicator",
+                "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18VmaxCarouselHelper0aB15SliderIndicatorO2eeoiySbAC_ACtFZ",
+            "moduleName": "VmaxCarouselHelper",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO9hashValueSivp",
+            "mangledName": "$s18VmaxCarouselHelper0aB15SliderIndicatorO9hashValueSivp",
+            "moduleName": "VmaxCarouselHelper",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO9hashValueSivg",
+                "mangledName": "$s18VmaxCarouselHelper0aB15SliderIndicatorO9hashValueSivg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18VmaxCarouselHelper0aB15SliderIndicatorO4hash4intoys6HasherVz_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO",
+        "mangledName": "$s18VmaxCarouselHelper0aB15SliderIndicatorO",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxAdsCarouselConfig",
+        "printedName": "VmaxAdsCarouselConfig",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderCAEycfc",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderCAEycfc",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "setCarouselId",
+                "printedName": "setCarouselId(carouselId:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC03setB2Id08carouselH0AESS_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC03setB2Id08carouselH0AESS_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setCardSize",
+                "printedName": "setCardSize(size:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC11setCardSize4sizeAESo6CGSizeV_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC11setCardSize4sizeAESo6CGSizeV_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setCardCornerRadius",
+                "printedName": "setCardCornerRadius(cornerRadius:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC19setCardCornerRadius06cornerJ0AE14CoreFoundation7CGFloatV_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC19setCardCornerRadius06cornerJ0AE12CoreGraphics7CGFloatV_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setCardBackgroundColor",
+                "printedName": "setCardBackgroundColor(colorHexCode:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC22setCardBackgroundColor12colorHexCodeAESS_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC22setCardBackgroundColor12colorHexCodeAESS_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setCardBackgroundColorWhenFocused",
+                "printedName": "setCardBackgroundColorWhenFocused(colorHexCode:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC33setCardBackgroundColorWhenFocused12colorHexCodeAESS_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC33setCardBackgroundColorWhenFocused12colorHexCodeAESS_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setCardShadow",
+                "printedName": "setCardShadow(cardShadow:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxCarouselCardShadow",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardShadow",
+                    "usr": "s:18VmaxCarouselHelper0aB10CardShadowC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC13setCardShadow04cardI0AeA0abhI0C_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC13setCardShadow04cardI0AeA0abhI0C_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setCardClickable",
+                "printedName": "setCardClickable(isCardClickable:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC16setCardClickable02ishI0AESb_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC16setCardClickable02ishI0AESb_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setCardSpacing",
+                "printedName": "setCardSpacing(cardSpacing:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC14setCardSpacing04cardI0AE14CoreFoundation7CGFloatV_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC14setCardSpacing04cardI0AE12CoreGraphics7CGFloatV_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setViewportMode",
+                "printedName": "setViewportMode(viewportMode:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxCarouselCardViewportMode",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardViewportMode",
+                    "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC15setViewportMode08viewportI0AeA0ab4CardhI0O_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC15setViewportMode08viewportI0AeA0ab4CardhI0O_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "enableIndicator",
+                "printedName": "enableIndicator(indicatorContainer:vmaxCarouselIndicatorResourceConfig:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig.Builder",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselIndicatorResourceConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VmaxCarouselIndicatorResourceConfig",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselIndicatorResourceConfig",
+                        "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC15enableIndicator18indicatorContainer04vmaxbh8ResourceE0AESo6UIViewC_AA0abhlE0CSgtF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC15enableIndicator18indicatorContainer04vmaxbh8ResourceE0AESo6UIViewC_AA0abhlE0CSgtF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxAdsCarouselConfig",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC5buildACyF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC5buildACyF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC7BuilderC",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC",
+        "mangledName": "$s18VmaxCarouselHelper0a3AdsB6ConfigC",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxCarouselIndicatorResourceConfig",
+        "printedName": "VmaxCarouselIndicatorResourceConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "indicatorUnfocusedImage",
+            "printedName": "indicatorUnfocusedImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC23indicatorUnfocusedImageSo7UIImageCSgvp",
+            "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC23indicatorUnfocusedImageSo7UIImageCSgvp",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC23indicatorUnfocusedImageSo7UIImageCSgvg",
+                "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC23indicatorUnfocusedImageSo7UIImageCSgvg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC23indicatorUnfocusedImageSo7UIImageCSgvs",
+                "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC23indicatorUnfocusedImageSo7UIImageCSgvs",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC23indicatorUnfocusedImageSo7UIImageCSgvM",
+                "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC23indicatorUnfocusedImageSo7UIImageCSgvM",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "indicatorFocusedImage",
+            "printedName": "indicatorFocusedImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC21indicatorFocusedImageSo7UIImageCSgvp",
+            "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC21indicatorFocusedImageSo7UIImageCSgvp",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC21indicatorFocusedImageSo7UIImageCSgvg",
+                "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC21indicatorFocusedImageSo7UIImageCSgvg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC21indicatorFocusedImageSo7UIImageCSgvs",
+                "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC21indicatorFocusedImageSo7UIImageCSgvs",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC21indicatorFocusedImageSo7UIImageCSgvM",
+                "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC21indicatorFocusedImageSo7UIImageCSgvM",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "indicatorSpacing",
+            "printedName": "indicatorSpacing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC16indicatorSpacing14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC16indicatorSpacing12CoreGraphics7CGFloatVvp",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC16indicatorSpacing14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC16indicatorSpacing12CoreGraphics7CGFloatVvg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC16indicatorSpacing14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC16indicatorSpacing12CoreGraphics7CGFloatVvs",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC16indicatorSpacing14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC16indicatorSpacing12CoreGraphics7CGFloatVvM",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(indicatorUnfocusedImage:indicatorFocusedImage:indicatorSpacing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselIndicatorResourceConfig",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselIndicatorResourceConfig",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC23indicatorUnfocusedImage0g7FocusedI00G7SpacingACSo7UIImageCSg_AI14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC23indicatorUnfocusedImage0g7FocusedI00G7SpacingACSo7UIImageCSg_AI12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "defaultSetup",
+            "printedName": "defaultSetup(carouselIndicator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselIndicatorResourceConfig",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselIndicatorResourceConfig",
+                "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselSliderIndicator",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselSliderIndicator",
+                "usr": "s:18VmaxCarouselHelper0aB15SliderIndicatorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC12defaultSetup08carouselD0AcA0ab6SliderD0O_tFZ",
+            "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC12defaultSetup08carouselD0AcA0ab6SliderD0O_tFZ",
+            "moduleName": "VmaxCarouselHelper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18VmaxCarouselHelper0aB23IndicatorResourceConfigC",
+        "mangledName": "$s18VmaxCarouselHelper0aB23IndicatorResourceConfigC",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxCarouselCardShadow",
+        "printedName": "VmaxCarouselCardShadow",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shadowColor",
+            "printedName": "shadowColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0aB10CardShadowC11shadowColorSo7UIColorCvp",
+            "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC11shadowColorSo7UIColorCvp",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB10CardShadowC11shadowColorSo7UIColorCvg",
+                "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC11shadowColorSo7UIColorCvg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shadowOffset",
+            "printedName": "shadowOffset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0aB10CardShadowC12shadowOffsetSo6CGSizeVvp",
+            "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC12shadowOffsetSo6CGSizeVvp",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB10CardShadowC12shadowOffsetSo6CGSizeVvg",
+                "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC12shadowOffsetSo6CGSizeVvg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shadowOpacity",
+            "printedName": "shadowOpacity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0aB10CardShadowC13shadowOpacitySfvp",
+            "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC13shadowOpacitySfvp",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB10CardShadowC13shadowOpacitySfvg",
+                "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC13shadowOpacitySfvg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shadowRadius",
+            "printedName": "shadowRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0aB10CardShadowC12shadowRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC12shadowRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB10CardShadowC12shadowRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC12shadowRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(shadowColor:shadowOffset:shadowOpacity:shadowRadius:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselCardShadow",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselCardShadow",
+                "usr": "s:18VmaxCarouselHelper0aB10CardShadowC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18VmaxCarouselHelper0aB10CardShadowC11shadowColor0F6Offset0F7Opacity0F6RadiusACSo7UIColorC_So6CGSizeVSf14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC11shadowColor0F6Offset0F7Opacity0F6RadiusACSo7UIColorC_So6CGSizeVSf12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "defaultSetup",
+            "printedName": "defaultSetup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselCardShadow",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselCardShadow",
+                "usr": "s:18VmaxCarouselHelper0aB10CardShadowC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB10CardShadowC12defaultSetupACyFZ",
+            "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC12defaultSetupACyFZ",
+            "moduleName": "VmaxCarouselHelper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18VmaxCarouselHelper0aB10CardShadowC",
+        "mangledName": "$s18VmaxCarouselHelper0aB10CardShadowC",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxCarouselEventDelegate",
+        "printedName": "VmaxCarouselEventDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onReady",
+            "printedName": "onReady()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB13EventDelegateP7onReadyyyF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13EventDelegateP7onReadyyyF",
+            "moduleName": "VmaxCarouselHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "sugared_genericSig": "<Self where Self : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(vmaxError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxError",
+                "printedName": "Vmax.VmaxError",
+                "usr": "s:4Vmax0A5ErrorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB13EventDelegateP7onError04vmaxG0y0A00aG0C_tF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13EventDelegateP7onError04vmaxG0y0A00aG0C_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "sugared_genericSig": "<Self where Self : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRendered",
+            "printedName": "onRendered()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB13EventDelegateP10onRenderedyyF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13EventDelegateP10onRenderedyyF",
+            "moduleName": "VmaxCarouselHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "sugared_genericSig": "<Self where Self : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdChanged",
+            "printedName": "onAdChanged(index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB13EventDelegateP11onAdChanged5indexySi_tF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13EventDelegateP11onAdChanged5indexySi_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "sugared_genericSig": "<Self where Self : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaused",
+            "printedName": "onPaused()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB13EventDelegateP8onPausedyyF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13EventDelegateP8onPausedyyF",
+            "moduleName": "VmaxCarouselHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "sugared_genericSig": "<Self where Self : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResumed",
+            "printedName": "onResumed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB13EventDelegateP9onResumedyyF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13EventDelegateP9onResumedyyF",
+            "moduleName": "VmaxCarouselHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "sugared_genericSig": "<Self where Self : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClosed",
+            "printedName": "onClosed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB13EventDelegateP8onClosedyyF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13EventDelegateP8onClosedyyF",
+            "moduleName": "VmaxCarouselHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "sugared_genericSig": "<Self where Self : VmaxCarouselHelper.VmaxCarouselEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18VmaxCarouselHelper0aB13EventDelegateP",
+        "mangledName": "$s18VmaxCarouselHelper0aB13EventDelegateP",
+        "moduleName": "VmaxCarouselHelper",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxCarouselError",
+        "printedName": "VmaxCarouselError",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Codes",
+            "printedName": "Codes",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "carouselCompatibleVmaxAdNotFound",
+                "printedName": "carouselCompatibleVmaxAdNotFound",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxCarouselError.Codes.Type) -> VmaxCarouselHelper.VmaxCarouselError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO018carouselCompatibleA10AdNotFoundyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO018carouselCompatibleA10AdNotFoundyA2EmF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "minimumCardsNotMet",
+                "printedName": "minimumCardsNotMet",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxCarouselError.Codes.Type) -> VmaxCarouselHelper.VmaxCarouselError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO18minimumCardsNotMetyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO18minimumCardsNotMetyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "configError",
+                "printedName": "configError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxCarouselError.Codes.Type) -> VmaxCarouselHelper.VmaxCarouselError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO06configD0yA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO06configD0yA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "carouselRenditionError",
+                "printedName": "carouselRenditionError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxCarouselError.Codes.Type) -> VmaxCarouselHelper.VmaxCarouselError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO017carouselRenditionD0yA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO017carouselRenditionD0yA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "tagIdsNotPassed",
+                "printedName": "tagIdsNotPassed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxCarouselError.Codes.Type) -> VmaxCarouselHelper.VmaxCarouselError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO15tagIdsNotPassedyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO15tagIdsNotPassedyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "carouselIdNotFound",
+                "printedName": "carouselIdNotFound",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxCarouselError.Codes.Type) -> VmaxCarouselHelper.VmaxCarouselError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO18carouselIdNotFoundyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO18carouselIdNotFoundyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "carouselObjectNotFound",
+                "printedName": "carouselObjectNotFound",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxCarouselError.Codes.Type) -> VmaxCarouselHelper.VmaxCarouselError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO22carouselObjectNotFoundyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO22carouselObjectNotFoundyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "carouselPrepareError",
+                "printedName": "carouselPrepareError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxCarouselError.Codes.Type) -> VmaxCarouselHelper.VmaxCarouselError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO015carouselPrepareD0yA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO015carouselPrepareD0yA2EmF",
+                "moduleName": "VmaxCarouselHelper",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "delegateNotInMemory",
+                "printedName": "delegateNotInMemory",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxCarouselError.Codes.Type) -> VmaxCarouselHelper.VmaxCarouselError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO19delegateNotInMemoryyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO19delegateNotInMemoryyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "containerIsMissingParentViewController",
+                "printedName": "containerIsMissingParentViewController",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxCarouselError.Codes.Type) -> VmaxCarouselHelper.VmaxCarouselError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO38containerIsMissingParentViewControlleryA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO38containerIsMissingParentViewControlleryA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                        "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO8rawValueAESgSi_tcfc",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO8rawValueAESgSi_tcfc",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO8rawValueSivp",
+                "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO8rawValueSivp",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO8rawValueSivg",
+                    "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO8rawValueSivg",
+                    "moduleName": "VmaxCarouselHelper",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO",
+            "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC5CodesO",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselError",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselError",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Codes",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18VmaxCarouselHelper0aB5ErrorC4codeA2C5CodesO_tcfc",
+            "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC4codeA2C5CodesO_tcfc",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:errorDescription:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselError",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselError",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Codes",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18VmaxCarouselHelper0aB5ErrorC4code16errorDescriptionA2C5CodesO_SStcfc",
+            "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC4code16errorDescriptionA2C5CodesO_SStcfc",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:errorDescription:recoveryMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselError",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselError",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Codes",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselError.Codes",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC5CodesO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18VmaxCarouselHelper0aB5ErrorC4code16errorDescription15recoveryMessageA2C5CodesO_S2Stcfc",
+            "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC4code16errorDescription15recoveryMessageA2C5CodesO_S2Stcfc",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:errorDescription:recoveryMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselError",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselError",
+                "usr": "s:18VmaxCarouselHelper0aB5ErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18VmaxCarouselHelper0aB5ErrorC4code16errorDescription15recoveryMessageACSi_S2Stcfc",
+            "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC4code16errorDescription15recoveryMessageACSi_S2Stcfc",
+            "moduleName": "VmaxCarouselHelper",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18VmaxCarouselHelper0aB5ErrorC",
+        "mangledName": "$s18VmaxCarouselHelper0aB5ErrorC",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:4Vmax0A5ErrorC",
+        "superclassNames": [
+          "Vmax.VmaxError"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxCarouselCardAlignment",
+        "printedName": "VmaxCarouselCardAlignment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "center",
+            "printedName": "center",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VmaxCarouselHelper.VmaxCarouselCardAlignment.Type) -> VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxCarouselCardAlignment",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                    "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VmaxCarouselCardAlignment",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                        "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO6centeryA2CmF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13CardAlignmentO6centeryA2CmF",
+            "moduleName": "VmaxCarouselHelper"
+          },
+          {
+            "kind": "Var",
+            "name": "left",
+            "printedName": "left",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VmaxCarouselHelper.VmaxCarouselCardAlignment.Type) -> VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxCarouselCardAlignment",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                    "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VmaxCarouselCardAlignment",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                        "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO4leftyA2CmF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13CardAlignmentO4leftyA2CmF",
+            "moduleName": "VmaxCarouselHelper"
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VmaxCarouselHelper.VmaxCarouselCardAlignment.Type) -> VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxCarouselCardAlignment",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                    "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VmaxCarouselCardAlignment",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                        "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO4noneyA2CmF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13CardAlignmentO4noneyA2CmF",
+            "moduleName": "VmaxCarouselHelper"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselCardAlignment",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselCardAlignment",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselCardAlignment",
+                "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18VmaxCarouselHelper0aB13CardAlignmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "VmaxCarouselHelper",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO9hashValueSivp",
+            "mangledName": "$s18VmaxCarouselHelper0aB13CardAlignmentO9hashValueSivp",
+            "moduleName": "VmaxCarouselHelper",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO9hashValueSivg",
+                "mangledName": "$s18VmaxCarouselHelper0aB13CardAlignmentO9hashValueSivg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18VmaxCarouselHelper0aB13CardAlignmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18VmaxCarouselHelper0aB13CardAlignmentO",
+        "mangledName": "$s18VmaxCarouselHelper0aB13CardAlignmentO",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxAdsCarousel",
+        "printedName": "VmaxAdsCarousel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "carouselAdsConfig",
+            "printedName": "carouselAdsConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdsCarouselConfig",
+                "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C08carouselD6ConfigAA0adbF0Cvp",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C08carouselD6ConfigAA0adbF0Cvp",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxAdsCarouselConfig",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C08carouselD6ConfigAA0adbF0Cvg",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C08carouselD6ConfigAA0adbF0Cvg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any VmaxCarouselHelper.VmaxAdsCarousel.InitializationSuccessDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializationSuccessDelegate",
+                    "printedName": "any VmaxCarouselHelper.VmaxAdsCarousel.InitializationSuccessDelegate",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB0C29InitializationSuccessDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C8delegateAC29InitializationSuccessDelegate_pSgvp",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C8delegateAC29InitializationSuccessDelegate_pSgvp",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any VmaxCarouselHelper.VmaxAdsCarousel.InitializationSuccessDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializationSuccessDelegate",
+                        "printedName": "any VmaxCarouselHelper.VmaxAdsCarousel.InitializationSuccessDelegate",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C29InitializationSuccessDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C8delegateAC29InitializationSuccessDelegate_pSgvg",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C8delegateAC29InitializationSuccessDelegate_pSgvg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(carouselConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdsCarousel",
+                "printedName": "VmaxCarouselHelper.VmaxAdsCarousel",
+                "usr": "c:@M@VmaxCarouselHelper@objc(cs)VmaxAdsCarousel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdsCarouselConfig",
+                "printedName": "VmaxCarouselHelper.VmaxAdsCarouselConfig",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB6ConfigC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C14carouselConfigAcA0adbF0C_tcfc",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C14carouselConfigAcA0adbF0C_tcfc",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(initializationSuccessDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InitializationSuccessDelegate",
+                "printedName": "any VmaxCarouselHelper.VmaxAdsCarousel.InitializationSuccessDelegate",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C29InitializationSuccessDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C10initialize29initializationSuccessDelegateyAC014InitializationgH0_p_tF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C10initialize29initializationSuccessDelegateyAC014InitializationgH0_p_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addCarouselEventDelegate",
+            "printedName": "addCarouselEventDelegate(carouselEventDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselEventDelegate",
+                "printedName": "any VmaxCarouselHelper.VmaxCarouselEventDelegate",
+                "usr": "s:18VmaxCarouselHelper0aB13EventDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C03addB13EventDelegate08carouselfG0yAA0abfG0_p_tF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C03addB13EventDelegate08carouselfG0yAA0abfG0_p_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeCarouselEventDelegate",
+            "printedName": "removeCarouselEventDelegate(carouselEventDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselEventDelegate",
+                "printedName": "any VmaxCarouselHelper.VmaxCarouselEventDelegate",
+                "usr": "s:18VmaxCarouselHelper0aB13EventDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C06removeB13EventDelegate08carouselfG0yAA0abfG0_p_tF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C06removeB13EventDelegate08carouselfG0yAA0abfG0_p_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prepare",
+            "printedName": "prepare()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C7prepareyyF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C7prepareyyF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(carouselContainer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C6render17carouselContainerySo6UIViewC_tF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C6render17carouselContainerySo6UIViewC_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C5pauseyyF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C5pauseyyF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C6resumeyyF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C6resumeyyF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C7destroyyyF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C7destroyyyF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdsCarousel",
+                "printedName": "VmaxCarouselHelper.VmaxAdsCarousel",
+                "usr": "c:@M@VmaxCarouselHelper@objc(cs)VmaxAdsCarousel"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VmaxCarouselHelper@objc(cs)VmaxAdsCarousel(im)init",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0CACycfc",
+            "moduleName": "VmaxCarouselHelper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "InitializationSuccessDelegate",
+            "printedName": "InitializationSuccessDelegate",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "onSuccess",
+                "printedName": "onSuccess(vmaxAdSpaces:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Vmax.VmaxAdSpace]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VmaxAdSpace",
+                        "printedName": "Vmax.VmaxAdSpace",
+                        "usr": "s:4Vmax0A7AdSpaceC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C29InitializationSuccessDelegateP02onF012vmaxAdSpacesySay0A00aJ5SpaceCG_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C29InitializationSuccessDelegateP02onF012vmaxAdSpacesySay0A00aJ5SpaceCG_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "genericSig": "<τ_0_0 where τ_0_0 : VmaxCarouselHelper.VmaxAdsCarousel.InitializationSuccessDelegate>",
+                "sugared_genericSig": "<Self where Self : VmaxCarouselHelper.VmaxAdsCarousel.InitializationSuccessDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Protocol",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C29InitializationSuccessDelegateP",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C29InitializationSuccessDelegateP",
+            "moduleName": "VmaxCarouselHelper",
+            "genericSig": "<τ_0_0 : AnyObject>",
+            "sugared_genericSig": "<Self : AnyObject>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onAdReady",
+            "printedName": "onAdReady(vmaxAdSpace:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdSpace",
+                "printedName": "Vmax.VmaxAdSpace",
+                "usr": "s:4Vmax0A7AdSpaceC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C9onAdReady04vmaxF5Spacey0A00afI0C_tF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C9onAdReady04vmaxF5Spacey0A00afI0C_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdError",
+            "printedName": "onAdError(vmaxAdSpace:vmaxError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdSpace",
+                "printedName": "Vmax.VmaxAdSpace",
+                "usr": "s:4Vmax0A7AdSpaceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxError",
+                "printedName": "Vmax.VmaxError",
+                "usr": "s:4Vmax0A5ErrorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C9onAdError04vmaxF5Space0hG0y0A00afI0C_AG0aG0CtF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C9onAdError04vmaxF5Space0hG0y0A00afI0C_AG0aG0CtF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdRender",
+            "printedName": "onAdRender(vmaxAdSpace:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdSpace",
+                "printedName": "Vmax.VmaxAdSpace",
+                "usr": "s:4Vmax0A7AdSpaceC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C10onAdRender04vmaxF5Spacey0A00afI0C_tF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C10onAdRender04vmaxF5Spacey0A00afI0C_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdRefresh",
+            "printedName": "onAdRefresh(vmaxAdSpace:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdSpace",
+                "printedName": "Vmax.VmaxAdSpace",
+                "usr": "s:4Vmax0A7AdSpaceC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C11onAdRefresh04vmaxF5Spacey0A00afI0C_tF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C11onAdRefresh04vmaxF5Spacey0A00afI0C_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdClick",
+            "printedName": "onAdClick(vmaxAdSpace:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdSpace",
+                "printedName": "Vmax.VmaxAdSpace",
+                "usr": "s:4Vmax0A7AdSpaceC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C9onAdClick04vmaxF5Spacey0A00afI0C_tF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C9onAdClick04vmaxF5Spacey0A00afI0C_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdClose",
+            "printedName": "onAdClose(vmaxAdSpace:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdSpace",
+                "printedName": "Vmax.VmaxAdSpace",
+                "usr": "s:4Vmax0A7AdSpaceC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C9onAdClose04vmaxF5Spacey0A00afI0C_tF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C9onAdClose04vmaxF5Spacey0A00afI0C_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onComplete",
+            "printedName": "onComplete(info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C10onComplete4infoyxSg_tlF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C10onComplete4infoyxSg_tlF",
+            "moduleName": "VmaxCarouselHelper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CarouselState",
+            "printedName": "CarouselState",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "initialized",
+                "printedName": "initialized",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type) -> VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CarouselState",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CarouselState",
+                            "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO11initializedyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO11initializedyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "preparing",
+                "printedName": "preparing",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type) -> VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CarouselState",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CarouselState",
+                            "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO9preparingyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO9preparingyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "preparationFailed",
+                "printedName": "preparationFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type) -> VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CarouselState",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CarouselState",
+                            "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO17preparationFailedyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO17preparationFailedyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "prepared",
+                "printedName": "prepared",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type) -> VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CarouselState",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CarouselState",
+                            "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO8preparedyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO8preparedyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "rendering",
+                "printedName": "rendering",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type) -> VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CarouselState",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CarouselState",
+                            "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO9renderingyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO9renderingyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "renditionFailed",
+                "printedName": "renditionFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type) -> VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CarouselState",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CarouselState",
+                            "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO15renditionFailedyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO15renditionFailedyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "rendered",
+                "printedName": "rendered",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type) -> VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CarouselState",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CarouselState",
+                            "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO8renderedyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO8renderedyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "paused",
+                "printedName": "paused",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type) -> VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CarouselState",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CarouselState",
+                            "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO6pausedyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO6pausedyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "resumed",
+                "printedName": "resumed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type) -> VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CarouselState",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CarouselState",
+                            "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO7resumedyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO7resumedyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "destroyed",
+                "printedName": "destroyed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type) -> VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CarouselState",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                        "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CarouselState",
+                            "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO9destroyedyA2EmF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO9destroyedyA2EmF",
+                "moduleName": "VmaxCarouselHelper"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CarouselState",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CarouselState",
+                    "printedName": "VmaxCarouselHelper.VmaxAdsCarousel.CarouselState",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO2eeoiySbAE_AEtFZ",
+                "moduleName": "VmaxCarouselHelper",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO9hashValueSivp",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO9hashValueSivp",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO9hashValueSivg",
+                    "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO9hashValueSivg",
+                    "moduleName": "VmaxCarouselHelper",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO4hash4intoys6HasherVz_tF",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C0B5StateO",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C0B5StateO",
+            "moduleName": "VmaxCarouselHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VmaxCarouselHelper@objc(cs)VmaxAdsCarousel",
+        "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VmaxAdEventDelegate",
+            "printedName": "VmaxAdEventDelegate",
+            "usr": "s:4Vmax0A15AdEventDelegateP",
+            "mangledName": "$s4Vmax0A15AdEventDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VmaxMediaEvents",
+            "printedName": "VmaxMediaEvents",
+            "usr": "s:4Vmax0A11MediaEventsP",
+            "mangledName": "$s4Vmax0A11MediaEventsP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxCarouselCardViewportMode",
+        "printedName": "VmaxCarouselCardViewportMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "singleCard",
+            "printedName": "singleCard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VmaxCarouselHelper.VmaxCarouselCardViewportMode.Type) -> VmaxCarouselHelper.VmaxCarouselCardViewportMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxCarouselCardViewportMode",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardViewportMode",
+                    "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardViewportMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VmaxCarouselCardViewportMode",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselCardViewportMode",
+                        "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO06singleD0yA2CmF",
+            "mangledName": "$s18VmaxCarouselHelper0aB16CardViewportModeO06singleD0yA2CmF",
+            "moduleName": "VmaxCarouselHelper"
+          },
+          {
+            "kind": "Var",
+            "name": "multiCard",
+            "printedName": "multiCard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VmaxCarouselHelper.VmaxCarouselCardViewportMode.Type) -> VmaxCarouselHelper.VmaxCarouselCardViewportMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxCarouselCardViewportMode",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardViewportMode",
+                    "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VmaxCarouselHelper.VmaxCarouselCardViewportMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VmaxCarouselCardViewportMode",
+                        "printedName": "VmaxCarouselHelper.VmaxCarouselCardViewportMode",
+                        "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO05multiD0yA2CmF",
+            "mangledName": "$s18VmaxCarouselHelper0aB16CardViewportModeO05multiD0yA2CmF",
+            "moduleName": "VmaxCarouselHelper"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselCardViewportMode",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselCardViewportMode",
+                "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselCardViewportMode",
+                "printedName": "VmaxCarouselHelper.VmaxCarouselCardViewportMode",
+                "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18VmaxCarouselHelper0aB16CardViewportModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "VmaxCarouselHelper",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO9hashValueSivp",
+            "mangledName": "$s18VmaxCarouselHelper0aB16CardViewportModeO9hashValueSivp",
+            "moduleName": "VmaxCarouselHelper",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO9hashValueSivg",
+                "mangledName": "$s18VmaxCarouselHelper0aB16CardViewportModeO9hashValueSivg",
+                "moduleName": "VmaxCarouselHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18VmaxCarouselHelper0aB16CardViewportModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "VmaxCarouselHelper",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18VmaxCarouselHelper0aB16CardViewportModeO",
+        "mangledName": "$s18VmaxCarouselHelper0aB16CardViewportModeO",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "VmaxCarouselHelper"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Extension\/VmaxCarouselExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1277,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCarouselCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCarouselCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCarouselCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCarouselConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCarouselConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCarouselConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 778,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarouselConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1398,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarouselConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1437,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarouselConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1477,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarouselConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1536,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarouselConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1630,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarouselConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1670,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarouselConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1775,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarouselConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1788,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarouselConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4300,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/UICollectionViewFlowLayout\/CustomCenterFlowLayout.swift",
+      "kind": "FloatLiteral",
+      "offset": 216,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/CarouselAdSpace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/CarouselAdSpace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 358,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/CarouselAdSpace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/CarouselAdSpace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 478,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Public\/VmaxCarouselError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 4,
+      "value": "9000"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Public\/VmaxCarouselError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 18,
+      "value": "9001"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Public\/VmaxCarouselError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 11,
+      "value": "9002"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Public\/VmaxCarouselError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 366,
+      "length": 22,
+      "value": "9003"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Public\/VmaxCarouselError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 15,
+      "value": "9004"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Public\/VmaxCarouselError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 18,
+      "value": "9005"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Public\/VmaxCarouselError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 463,
+      "length": 22,
+      "value": "9006"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Public\/VmaxCarouselError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 517,
+      "length": 20,
+      "value": "9007"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Public\/VmaxCarouselError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 19,
+      "value": "9008"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Public\/VmaxCarouselError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 584,
+      "length": 38,
+      "value": "9009"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCollectionView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCollectionView.swift",
+      "kind": "FloatLiteral",
+      "offset": 343,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 642,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5488,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 718,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 872,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 913,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 954,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1039,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1080,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1130,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1380,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1393,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1517,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1558,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1697,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1779,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 2111,
+      "length": 15,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 2125,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 18211,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 18779,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxCarouselHelper-bolvaesvsdozoucbuzalllzbwsdn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxCarouselHelper\/IntermediateBuildFilesPath\/VmaxCarouselHelper.build\/Release-iphonesimulator\/VmaxCarouselHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 752,
+      "length": 23,
+      "value": "\"carousel_nav_active_1\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxCarouselHelper-bolvaesvsdozoucbuzalllzbwsdn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxCarouselHelper\/IntermediateBuildFilesPath\/VmaxCarouselHelper.build\/Release-iphonesimulator\/VmaxCarouselHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 28,
+      "value": "\"carousel_nav_active_1_blue\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxCarouselHelper-bolvaesvsdozoucbuzalllzbwsdn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxCarouselHelper\/IntermediateBuildFilesPath\/VmaxCarouselHelper.build\/Release-iphonesimulator\/VmaxCarouselHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1110,
+      "length": 23,
+      "value": "\"carousel_nav_active_2\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxCarouselHelper-bolvaesvsdozoucbuzalllzbwsdn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxCarouselHelper\/IntermediateBuildFilesPath\/VmaxCarouselHelper.build\/Release-iphonesimulator\/VmaxCarouselHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 28,
+      "value": "\"carousel_nav_active_2_blue\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxCarouselHelper-bolvaesvsdozoucbuzalllzbwsdn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxCarouselHelper\/IntermediateBuildFilesPath\/VmaxCarouselHelper.build\/Release-iphonesimulator\/VmaxCarouselHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1472,
+      "length": 25,
+      "value": "\"carousel_nav_inactive_1\""
+    }
+  ]
+}
