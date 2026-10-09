@@ -3270,6 +3270,42 @@
           },
           {
             "kind": "Function",
+            "name": "onPause",
+            "printedName": "onPause(info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VmaxCarouselHelper0a3AdsB0C7onPause4infoyxSg_tlF",
+            "mangledName": "$s18VmaxCarouselHelper0a3AdsB0C7onPause4infoyxSg_tlF",
+            "moduleName": "VmaxCarouselHelper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "onComplete",
             "printedName": "onComplete(info:)",
             "children": [
@@ -4450,7 +4486,21 @@
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5488,
+      "offset": 5516,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCollectionView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7494,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/Private\/VmaxCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7579,
       "length": 5,
       "value": "false"
     },
@@ -4498,85 +4548,92 @@
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1124,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "FloatLiteral",
-      "offset": 1130,
+      "offset": 1175,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1380,
+      "offset": 1425,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1393,
+      "offset": 1438,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1517,
+      "offset": 1562,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1558,
+      "offset": 1603,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1656,
+      "offset": 1701,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1697,
+      "offset": 1742,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1779,
+      "offset": 1824,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "StringLiteral",
-      "offset": 2111,
+      "offset": 2156,
       "length": 15,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "StringLiteral",
-      "offset": 2125,
+      "offset": 2170,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "FloatLiteral",
-      "offset": 18288,
+      "offset": 18768,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-carousel\/VmaxCarouselHelper\/VmaxCarouselHelper\/Source\/VmaxAdsCarousel.swift",
       "kind": "FloatLiteral",
-      "offset": 18856,
+      "offset": 19336,
       "length": 3,
       "value": "0.0"
     },

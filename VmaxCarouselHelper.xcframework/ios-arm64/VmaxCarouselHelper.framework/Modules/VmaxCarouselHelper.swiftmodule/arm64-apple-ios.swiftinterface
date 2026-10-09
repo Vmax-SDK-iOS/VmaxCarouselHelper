@@ -132,6 +132,7 @@ extension VmaxCarouselHelper.VmaxAdsCarousel : Vmax.VmaxAdEventDelegate {
   public func onAdClose(vmaxAdSpace: Vmax.VmaxAdSpace)
 }
 extension VmaxCarouselHelper.VmaxAdsCarousel : Vmax.VmaxMediaEvents {
+  public func onPause<T>(info: T?)
   public func onComplete<T>(info: T?)
 }
 public enum VmaxCarouselCardViewportMode {

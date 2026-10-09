@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		LtRA0HDV00HByIFyBBUACej6ypc=
+		Q8HRA3py/TzDvYugYnkFQMyFU34=
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		8lUdY5FXBIC5tmuOZxSjRYMhy3U=
+		V3w2AJeE/FCQjci0eDgsF2Xl6gU=
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		8lUdY5FXBIC5tmuOZxSjRYMhy3U=
+		V3w2AJeE/FCQjci0eDgsF2Xl6gU=
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		iEIRJeClnOWKQq10ojDNrJvVoG4=
+		/E9RD/hjb4p48onKwZxLWLKSKAs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FZYDZKAbAEr7f/kUNf1EbYj8/BGK2mQ8UstJnTKnMdc=
+			1ThJzVSlkJImrU/tR3Vdlqu+vT89TdisnCR3+6WCKyk=
 			</data>
 		</dict>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/liO2NtJaiOsgTs0BQ5tK5UVmVkDJNC+MVFAdmZRyrk=
+			OwUiEL7KSaJkoNPWC9I6UZ78Z70CBmU3wxwdSXU/SnI=
 			</data>
 		</dict>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/liO2NtJaiOsgTs0BQ5tK5UVmVkDJNC+MVFAdmZRyrk=
+			OwUiEL7KSaJkoNPWC9I6UZ78Z70CBmU3wxwdSXU/SnI=
 			</data>
 		</dict>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Q7lsChtLnqiHHIqTz234QcM46tQQYeIWZi7N+8ASog=
+			ShGPVCZZePc6N6PMLwZhtiXwRG6MSqrcEp5tK3/0IQQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

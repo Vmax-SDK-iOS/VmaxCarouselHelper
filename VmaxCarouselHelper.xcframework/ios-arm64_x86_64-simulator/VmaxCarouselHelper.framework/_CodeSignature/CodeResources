@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		EaoH9tZpiIuPquwn7AIvFIJs3Yo=
+		gjPqPp+uUbcm3W8re95f527Xuhs=
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hOmylUYkXMKt2IbUnxDk4AJI574=
+		3yHIh8kFofjXjFxDXSsLIOVk/KM=
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hOmylUYkXMKt2IbUnxDk4AJI574=
+		3yHIh8kFofjXjFxDXSsLIOVk/KM=
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IDT7Sej6N1CSdNd1TsL7CjUFV4k=
+		8TWFqTQvnSKsEjS3C6kZ9wISswI=
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		EaoH9tZpiIuPquwn7AIvFIJs3Yo=
+		gjPqPp+uUbcm3W8re95f527Xuhs=
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VbSOPzj+7HJCQ1Fj3bM9ARVABYs=
+		po8W0OUWXRrSDVbyQEjL2CyAFFY=
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VbSOPzj+7HJCQ1Fj3bM9ARVABYs=
+		po8W0OUWXRrSDVbyQEjL2CyAFFY=
 		</data>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WgFsR9KCyEfGUsidf8zeSX533ZQ=
+		LD3z4IS/avu3paTCWyNZz0lcRz0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,14 +92,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tr/1Vf4K5GW1gU4jhyxM4GcHLvsz4Z3rdMSeFn21kzo=
+			PVGZPu2d6IX94MQOMoShP4uJr4kusEd0Zr/OK86UDpE=
 			</data>
 		</dict>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YxlQcPdCX9QcAM75+DDH2B+txO5f7CtrOI0s/dEo0Ps=
+			Kr8s15FXbat3JZJdj1uxlGAUJjwGVoSYfhgnjmlgfXg=
 			</data>
 		</dict>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -113,28 +113,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YxlQcPdCX9QcAM75+DDH2B+txO5f7CtrOI0s/dEo0Ps=
+			Kr8s15FXbat3JZJdj1uxlGAUJjwGVoSYfhgnjmlgfXg=
 			</data>
 		</dict>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qqsbz2AC/s+WpgeSR7kTsnmTwvUDnOQOecXJN7JtyEA=
+			rl3o1HiZbVkFk1aqwbP72H37BolJnF9x2/lm2pRTMGA=
 			</data>
 		</dict>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tr/1Vf4K5GW1gU4jhyxM4GcHLvsz4Z3rdMSeFn21kzo=
+			PVGZPu2d6IX94MQOMoShP4uJr4kusEd0Zr/OK86UDpE=
 			</data>
 		</dict>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eLo4YucKZA+nzAbV2nWm18Ao48M7l5cLO5o2fEIRw4s=
+			LU4Z+jPnU2sScrE44rq1AAJkkw0L6NHFrRv2PLUw9A0=
 			</data>
 		</dict>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eLo4YucKZA+nzAbV2nWm18Ao48M7l5cLO5o2fEIRw4s=
+			LU4Z+jPnU2sScrE44rq1AAJkkw0L6NHFrRv2PLUw9A0=
 			</data>
 		</dict>
 		<key>Modules/VmaxCarouselHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7+YLzBpYOcwftq1Cjnjy9ZRc38CzbhkXS49VZz5zn1Y=
+			iJI1svwQL4rK0ZQBbyZucQMbnKGS00Dj3rPnhGDQO9c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
